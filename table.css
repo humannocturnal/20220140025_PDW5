@@ -1,0 +1,53 @@
+body {
+    background-color: #444; /* Warna abu-abu gelap */
+    margin: 0; /* Menghapus margin default body */
+    padding: 0; /* Menghapus padding default body */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(175, 149, 94); /* Warna latar belakang kontainer */
+    padding: 20px; /* Ruang padding */
+}
+
+.table-container {
+    width: 48%; /* Lebar kontainer tabel */
+    background-color: rgb(175, 149, 94); /* Warna latar belakang kontainer tabel */
+    padding: 10px; /* Ruang padding */
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hiasan {
+    font-size: 24px;
+    color: rgb(247, 182, 6);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#jdl {
+    color: aqua;
+    text-align: center;
+}
+
+#member, #mnama, #mposisi, #mtgl, #msub {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.left-div {
+    width: 100px;
+    display: inline-block;
+}
+
+.right-div {
+    display: inline-block;
+}
+
